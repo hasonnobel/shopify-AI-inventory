@@ -1,0 +1,33 @@
+{
+  "forecasting": {
+    "model_type": "prophet",
+    "forecast_days": 30,
+    "min_history_days": 60,
+    "seasonality": {
+      "yearly": true,
+      "weekly": true,
+      "daily": false
+    },
+    "confidence_interval": 0.95
+  },
+  "inventory": {
+    "min_stock_threshold": 10,
+    "critical_threshold": 5,
+    "safety_stock": 5,
+    "reorder_point": 15
+  },
+  "supplier": {
+    "lead_time_days": 7,
+    "order_cost": 50,
+    "holding_cost_per_unit": 0.5
+  },
+  "alerts": {
+    "enable_slack": false,
+    "enable_email": true,
+    "check_interval_minutes": 60
+  },
+  "api_limits": {
+    "shopify_api_calls_per_minute": 40,
+    "batch_size": 100
+  }
+}

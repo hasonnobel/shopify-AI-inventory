@@ -1,0 +1,1 @@
+# Shopify AI Inventory Management Package
