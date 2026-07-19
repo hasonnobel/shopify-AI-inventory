@@ -239,4 +239,4 @@ Once running, verify the system:
 For issues or questions:
 - Check logs in `/logs` directory
 - Review documentation in `/docs`
-- Open issue on GitHub: https://github.com/hasonnobel/shopify-ai-inventory/issues
+- Open issue on GitHub: shttps://github.com/hasonnobel/shopify-ai-inventory/issue
